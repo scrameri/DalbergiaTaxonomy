@@ -145,8 +145,8 @@ NOTE:
 
 2. Relationship between files, if important: 
 ```
-SupplementaryMaterial_2.R reads data from the 'data' subfolder. The Rscript and 
-subfolder must be located in the same working directory when running the R script.
+SupplementaryMaterial_2.R reads data from its Source File Directory. The data files
+must be located in the same working directory as the R script when running it.
 ```
 
 **METHODOLOGICAL INFORMATION**

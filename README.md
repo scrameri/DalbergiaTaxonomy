@@ -45,9 +45,8 @@ l'Union Européenne à Madagascar (DEUM).
 
 **SHARING/ACCESS INFORMATION**
 1. Licenses/restrictions placed on the data:
-```
-GNU GENERAL PUBLIC LICENCE version 3
-```
+	[GNU GENERAL PUBLIC LICENCE version 3](https://raw.githubusercontent.com/scrameri/DalbergiaTaxonomy/main/LICENSE)
+
 
 2. Links to publications that cite or use the data: 
 	[https://doi.org/10.5061/dryad.3n5tb2rhg](https://doi.org/10.5061/dryad.3n5tb2rhg)

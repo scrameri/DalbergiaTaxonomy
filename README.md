@@ -70,14 +70,6 @@ The ecological characteristics were extracted from available spatial raster/vect
   https://doi.org/10.5061/dryad.kd1d4.
 - Moat, J. and P. Smith (eds.). 2007. Atlas of the Vegetation of Madagascar. Kew: Royal Botanic Gardens.
 
-The spatial raster data from which 17 ecological characteristics were extracted:
-```
-r.eco_utm_30.tif
-```
-The extracted data on 17 ecological characteristics:
-```
-Supplementary_Material.xlsx
-```
 
 4. Recommended citation for this dataset: 
 ```

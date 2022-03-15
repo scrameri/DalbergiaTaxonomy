@@ -95,7 +95,7 @@ https://doi.org/10.5061/dryad.3n5tb2rhg.
    Github repository (https://github.com/scrameri/DalbergiaTaxonomy) and place the
    entire unzipped folder in your project working directory.
    
-2) open the R script [SupplementaryMaterial_2.R](https://github.com/scrameri/DalbergiaTaxonomy/blob/main/SupplementaryMaterial_2.R) in RStudio, and set the working dir
+2) open the R script [SupplementaryMaterial_2.R] in RStudio, and set the working dir
    to Source File Location (Session/Set Working Directory/To Source File Location).
    
 3) run the script line by line using Ctrl/Cmd + Enter	

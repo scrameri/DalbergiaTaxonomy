@@ -115,7 +115,7 @@ NOTE:
 **DATA & FILE OVERVIEW**
 1. File List:
 
-	[Supplementary_Material.xlsx](https://github.com/scrameri/DalbergiaTaxonomy) (with 4 tabs for Supplementary Materials 1, 3-5):	
+-	[Supplementary_Material.xlsx](https://github.com/scrameri/DalbergiaTaxonomy) (with 4 tabs for Supplementary Materials 1, 3-5):	
 	
 		Supplementary Material 1	Malagasy Dalbergia collections of six taxa for which 
 									morphological measurements were made (n = 424), and of
@@ -141,13 +141,13 @@ NOTE:
 									localization of endangered rosewoods. See Table 2 for
 									details on character codes. NA = not available.																		
 									
-	r.eco_utm_30.tif			Spatial raster data of ecological variables for Madagascar
+-	r.eco_utm_30.tif			Spatial raster data of ecological variables for Madagascar
 	
-	[Tables1-2.docx](https://github.com/scrameri/DalbergiaTaxonomy)					Copy of manuscript Tables 1-2, with details on 
+-	[Tables1-2.docx](https://github.com/scrameri/DalbergiaTaxonomy)					Copy of manuscript Tables 1-2, with details on 
 									morphological variables and ecological characteristics
 									in Supplementary_Material.xlsx.
 	
-	[SupplementaryMaterial_2.R](https://github.com/scrameri/DalbergiaTaxonomy/blob/main/SupplementaryMaterial_2.R)		R Script that reads	Supplementary_Material.xlsx
+-	[SupplementaryMaterial_2.R](https://github.com/scrameri/DalbergiaTaxonomy/blob/main/SupplementaryMaterial_2.R)		R Script that reads	Supplementary_Material.xlsx
 									and generates Manuscript Figure 3. Tested on R 4.0.2
 									and 4.1.1.
 
@@ -227,8 +227,8 @@ other attached packages:
 
 3. Describe any quality-assurance procedures performed on the data: 
 ```
-	Some missing values in the raw data were imputed using class means before subjecting
-	it to multivariate analyses (PCA, PCoA), see R Script. Missing data code is "NA".
+Some missing values in the raw data were imputed using class means before subjecting
+it to multivariate analyses (PCA, PCoA), see R Script. Missing data code is "NA".
 ```
 
 4. People involved with sample collection, processing, analysis and/or submission: 

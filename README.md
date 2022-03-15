@@ -3,50 +3,50 @@ This README_CRAMERI_etal_2022.txt file was generated on 2022-03-15 by S. Crameri
 **GENERAL INFORMATION**
 1. Title of Dataset: 
 ```
-	Taxonomic studies on Malagasy Dalbergia (Fabaceae). III. Two New Species from
-	Southeastern Madagascar and an Emended Description of the Rosewood Species
-	Dalbergia maritima
+Taxonomic studies on Malagasy Dalbergia (Fabaceae). III. Two New Species from
+Southeastern Madagascar and an Emended Description of the Rosewood Species
+Dalbergia maritima
 ```
 
 2. Author Information:
 
 ```
-	A. First Author Contact Information (contact regarding analyses)
-		Name:         Simon Crameri
-		Institution:  Institute of Integrative Biology, ETH Zurich, Zurich, Switzerland
-		Address:      Universitätstrasse 16, 8092 Zürich
-		Email:        simon.crameri@usys.ethz.ch ; sfcrameri@gmail.com
+A. First Author Contact Information (contact regarding analyses)
+	Name:         Simon Crameri
+	Institution:  Institute of Integrative Biology, ETH Zurich, Zurich, Switzerland
+	Address:      Universitätstrasse 16, 8092 Zürich
+	Email:        simon.crameri@usys.ethz.ch ; sfcrameri@gmail.com
 
-	B. Last Author Contact Information
-		Name:         Alex Widmer
-		Institution:  Institute of Integrative Biology, ETH Zurich, Zurich, Switzerland
-		Address:      Universitätstrasse 16, 8092 Zürich
-		Email:        alex.widmer@usys.ethz.ch
+B. Last Author Contact Information
+	Name:         Alex Widmer
+	Institution:  Institute of Integrative Biology, ETH Zurich, Zurich, Switzerland
+	Address:      Universitätstrasse 16, 8092 Zürich
+	Email:        alex.widmer@usys.ethz.ch
 ```
 
 3. Date of data collection:
 ```
-	2018 - 2021 (plant measurements)
+2018 - 2021 (plant measurements)
 ```
 
 4. Geographic location of data collection: 
 ```
-	Madagascar
+Madagascar
 ```
 
 5. Information about funding sources that supported the collection of the data:
 ```
-	This work was supported by ETH Zurich and a grant from the Rübel Foundation to AW.
-	The participation of PBP, NW, and PPL was supported by a grant from the Fondation
-	Franklinia to PPL. Field work and NR’s participation were funded by the Délégation de
-	l'Union Européenne à Madagascar (DEUM).
+This work was supported by ETH Zurich and a grant from the Rübel Foundation to AW.
+The participation of PBP, NW, and PPL was supported by a grant from the Fondation
+Franklinia to PPL. Field work and NR’s participation were funded by the Délégation de
+l'Union Européenne à Madagascar (DEUM).
 ```
 
 
 **SHARING/ACCESS INFORMATION**
 1. Licenses/restrictions placed on the data:
 ```
-	GNU GENERAL PUBLIC LICENCE version 3
+GNU GENERAL PUBLIC LICENCE version 3
 ```
 
 2. Links to publications that cite or use the data: 
@@ -54,7 +54,7 @@ This README_CRAMERI_etal_2022.txt file was generated on 2022-03-15 by S. Crameri
 	
 3. Was data derived from another source?
 ```
-	The ecological characteristics were extracted from available spatial raster/vector files:
+The ecological characteristics were extracted from available spatial raster/vector files:
 ```					
 - bioclimate raster data:	CHELSA version 1.2 Bioclim database (Karger et al. 2017).
 - vegetation classes: 		raster of the Atlas of the Vegetation of Madagascar by Moat and Smith (2007)
@@ -73,43 +73,43 @@ This README_CRAMERI_etal_2022.txt file was generated on 2022-03-15 by S. Crameri
 
 The spatial raster data from which 17 ecological characteristics were extracted:
 ```
-	r.eco_utm_30.tif
+r.eco_utm_30.tif
 ```
 The extracted data on 17 ecological characteristics:
 ```
-	Supplementary_Material.xlsx
+Supplementary_Material.xlsx
 ```
 
 4. Recommended citation for this dataset: 
 ```
-	Crameri, S., P. B. Phillipson, N. Rakotonirina, N. Wilding, R. L. Andriamiarisoa,
-	P. P. Lowry II, and A. Widmer. 2022. Data from: Taxonomic studies on Malagasy 
-	Dalbergia (Fabaceae). III. Two new species from southeastern Madagascar and an emended
-	description of the rosewood species Dalbergia maritima. Dryad Digital Repository.
-	https://doi.org/10.5061/dryad.3n5tb2rhg.
+Crameri, S., P. B. Phillipson, N. Rakotonirina, N. Wilding, R. L. Andriamiarisoa,
+P. P. Lowry II, and A. Widmer. 2022. Data from: Taxonomic studies on Malagasy 
+Dalbergia (Fabaceae). III. Two new species from southeastern Madagascar and an emended
+description of the rosewood species Dalbergia maritima. Dryad Digital Repository.
+https://doi.org/10.5061/dryad.3n5tb2rhg.
 ```
 
 5. Instructions for reproduction of Manuscript Figure 3:
 ```
-	1) download the Dryad dataset (https://doi.org/10.5061/dryad.3n5tb2rhg) or the
-	   Github repository (https://github.com/scrameri/DalbergiaTaxonomy) and place the
-	   entire unzipped folder in your project working directory.
-	   
-	2) open the R script [SupplementaryMaterial_2.R](https://github.com/scrameri/DalbergiaTaxonomy/blob/main/SupplementaryMaterial_2.R) in RStudio, and set the working dir
-	   to Source File Location (Session/Set Working Directory/To Source File Location).
-	   
-	3) run the script line by line using Ctrl/Cmd + Enter	
-	
-	NOTE:
-	- the R script should work using R version 4.0.2 and higher, but it depends
-	- lines that are 'commented out' in the R script are for reference, but cannot be 
-	  fully reproduced without precise geo-coordinates
-	  - the extraction of ecological characteristics from spatial raster data (script
-	    lines 789-951) is shown for reference, but it cannot be reproduced due to non-public
-	    co-ordinates of endangered rosewood species.	
-	  - the distribution map (script lines 974 ff) is also shown for reference, but it 
-	    cannot be reproduced due to non-public co-ordinates of endangered rosewood species.	
-	- in case of specific questions, please contact Simon Crameri (sfcrameri@gmail.com)
+1) download the Dryad dataset (https://doi.org/10.5061/dryad.3n5tb2rhg) or the
+   Github repository (https://github.com/scrameri/DalbergiaTaxonomy) and place the
+   entire unzipped folder in your project working directory.
+   
+2) open the R script [SupplementaryMaterial_2.R](https://github.com/scrameri/DalbergiaTaxonomy/blob/main/SupplementaryMaterial_2.R) in RStudio, and set the working dir
+   to Source File Location (Session/Set Working Directory/To Source File Location).
+   
+3) run the script line by line using Ctrl/Cmd + Enter	
+
+NOTE:
+- the R script should work using R version 4.0.2 and higher, but it depends
+- lines that are 'commented out' in the R script are for reference, but cannot be 
+  fully reproduced without precise geo-coordinates
+  - the extraction of ecological characteristics from spatial raster data (script
+    lines 789-951) is shown for reference, but it cannot be reproduced due to non-public
+    co-ordinates of endangered rosewood species.	
+  - the distribution map (script lines 974 ff) is also shown for reference, but it 
+    cannot be reproduced due to non-public co-ordinates of endangered rosewood species.	
+- in case of specific questions, please contact Simon Crameri (sfcrameri@gmail.com)
 ```
 
 **DATA & FILE OVERVIEW**
@@ -154,42 +154,50 @@ The extracted data on 17 ecological characteristics:
 
 2. Relationship between files, if important: 
 ```
-	SupplementaryMaterial_2.R reads data from the 'data' subfolder. The Rscript and 
-	subfolder must be located in the same working directory when running the R script.
+SupplementaryMaterial_2.R reads data from the 'data' subfolder. The Rscript and 
+subfolder must be located in the same working directory when running the R script.
 ```
 
 **METHODOLOGICAL INFORMATION**
 1. Methods for collection / processing the data: 
 
-	Morphological Measurements
-		We assessed 13 leaf and leaflet characters (Supplementary Material 3), along with
-		11 inflorescence and flower characters (Supplementary Material 4). Continuous and
-		discrete characters (see Manuscript Table 1), which were measured several times on
-		a given collection, were recorded as sample medians.
+Morphological Measurements
+
+```
+We assessed 13 leaf and leaflet characters (Supplementary Material 3), along with
+11 inflorescence and flower characters (Supplementary Material 4). Continuous and
+discrete characters (see Manuscript Table 1), which were measured several times on
+a given collection, were recorded as sample medians.
+```
+
+Ecological Characteristics
+```
+We assessed 17 potentially relevant ecological characteristics (Supplementary 
+Material 5) from available spatial raster or vector data for Madagascar (see
+Manuscript Table 2).
 		
-	Ecological Characteristics
-		We assessed 17 potentially relevant ecological characteristics (Supplementary 
-		Material 5) from available spatial raster or vector data for Madagascar (see
-		Manuscript Table 2).
+We used R (R Core Team 2020) version 4.0.2 and the elevatr package (Hollister et
+al. 2020) version 0.3.1, the terra package (Hijmans 2021) version 1.0.10, and the
+fasterRaster package (Smith 2020) version 0.6.0 to download high-resolution
+elevation data (3 arc seconds, ca. 90 m resolution) and to perform raster
+calculations.
 		
-		We used R (R Core Team 2020) version 4.0.2 and the elevatr package (Hollister et
-		al. 2020) version 0.3.1, the terra package (Hijmans 2021) version 1.0.10, and the
-		fasterRaster package (Smith 2020) version 0.6.0 to download high-resolution
-		elevation data (3 arc seconds, ca. 90 m resolution) and to perform raster
-		calculations.
+All rasters were projected to Universal Transverse Mercator (UTM) zone 38S and
+re-sampled to the resolution of the highest-resolved raster (30 m) when needed.
+We then extracted the ecological characteristics of the selected collections,
+resulting in an ecological dataset for multivariate analysis (see 
+SupplementaryMaterial_2.R).
 		
-		All rasters were projected to Universal Transverse Mercator (UTM) zone 38S and
-		re-sampled to the resolution of the highest-resolved raster (30 m) when needed.
-		We then extracted the ecological characteristics of the selected collections,
-		resulting in an ecological dataset for multivariate analysis
-		(see SupplementaryMaterial_2.R).
-		
-		The projected and re-sampled spatial rasters are in r.eco_utm_30.tif.
-		
-	Multivariate analyses
-		Commented R code documenting the extraction of ecological characteristics from
-		occurrence data as well as all panels of Figure 3 is available in
-		SupplementaryMaterial_2.R.
+The projected and re-sampled spatial rasters are in r.eco_utm_30.tif.
+
+```
+
+Multivariate analyses
+```
+Commented R code documenting the extraction of ecological characteristics from
+occurrence data as well as all panels of Figure 3 is available in
+SupplementaryMaterial_2.R.
+```
 
 2. Instrument- or software-specific information needed to interpret the data: 
 
